@@ -1,9 +1,9 @@
 
-Ctrl+ s保存
+Ctrl + s 保存
 
-ctrl+ d保存并退出，
+Ctrl + w 保存并退出，
 
-ctrl+ q退出放弃更改。
+Ctrl + q 退出放弃更改。
 
 1. 新建 〜/ .bashrc
 
