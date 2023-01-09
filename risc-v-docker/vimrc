@@ -1,0 +1,34 @@
+syntax on
+set showmode
+set encoding=utf-8
+set number
+set autoindent
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set softtabstop=4
+
+set number
+set relativenumber
+set hlsearch
+set incsearch
+
+
+inoremap jj <ESC>
+nnoremap <C-s> :w<cr>
+nnoremap <C-q> :q!<cr>
+
+
+let mapleader = ' '
+nnoremap <leader>ww <C-W>w
+nnoremap <leader>wh <C-W>h
+nnoremap <leader>wj <C-W>j
+nnoremap <leader>wk <C-W>k
+nnoremap <leader>wl <C-W>l
+
+map <C-w> <C-W>w
+map <C-h> <C-W>h
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-l> <C-W>l
+
