@@ -15,7 +15,7 @@ RUN \
   apt-get install -y autoconf automake autotools-dev build-essential && \
   apt-get install -y sudo bash-completion curl net-tools netcat git htop unzip vim wget tmux dkms  && \
   apt-get install -y gcc-riscv64-linux-gnu gdb-multiarch qemu-user qemu-system-misc && \
-  apt-get install -y python3 python3-pip python3-dev perl && \
+  apt-get install -y python3 python3-pip python3-dev && \
   rm -rf /var/lib/apt/lists/*
 
 # Set environment variables.
