@@ -1,12 +1,17 @@
 set number
 set autoindent
 set shiftwidth=4
+
+
+let mapleader=';'
+
 inoremap jj <ESC>
 
-nnoremap <C-s> :w<cr>
-nnoremap <C-q> :q!<cr>
-nnoremap <C-w> :wq!<cr>
 
-" inoremap <C-s> <esc>:w<cr>
-" inoremap <C-q> <esc>:q!<cr>
-" inoremap <C-w> <esc>:wq!<cr>
+nnoremap <leader>q :q!<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
