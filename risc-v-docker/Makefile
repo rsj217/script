@@ -1,5 +1,5 @@
 CROSS_COMPILE=riscv64-linux-gnu-
-CFLAGS = -c -nostdlib -nostdinc -static -g -march=rv32i -mabi=ilp32
+CFLAGS = -nostdlib -nostdinc -static -g -march=rv32i -mabi=ilp32
 
 QEMU = qemu-system-riscv32
 QFLAGS = -nographic -m 2G -machine virt -bios none 
